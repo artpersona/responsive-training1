@@ -11,7 +11,7 @@ const AppLink = (props) => {
 
 function NavBar() {
     const [click, setClick] = useState(false)
-    const [button, setButton] = useState(true)
+    const [button, setButton] = useState(false)
     const closeMobileMenu = () => setClick(false)
 
 
@@ -27,7 +27,7 @@ function NavBar() {
         showButton();
     },[])
 
-    window.addEventListener('resize', showButton)
+        window.addEventListener('resize', showButton)
 
     return (
         <>
