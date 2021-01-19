@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import  { Button }  from './Button'
 import './NavBar.css'
 
-const AppLink = (props) => {
+export const AppLink = (props) => {
     return(
         <Link  activeClassname='active-link' className='nav-link' {...props} ></Link>
     )

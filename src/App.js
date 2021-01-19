@@ -1,21 +1,19 @@
 import { Route, Switch, BrowserRouter as Router} from 'react-router-dom'
 import './App.css';
 import NavBar from './components/NavBar'
-import Hero from './components/Hero/Hero'
+import Landing from './pages/Landing'
 function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar/>
-        <Hero/>
-      </div>
-
-      <Switch>
-          <Route path='/'>
+        <Switch>
+            <Route path='/'>
+              <NavBar/>
+              <Landing></Landing>
+            </Route>
             
-          </Route>
-          
-      </Switch>
+        </Switch>
+      </div>
     </Router>
   );
 }
