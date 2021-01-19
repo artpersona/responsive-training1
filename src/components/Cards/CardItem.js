@@ -8,7 +8,7 @@ function CardItem({imgSrc, tag, content}) {
                 <Link className='cards__item__link'>
                     <figure className="cards__item__pic-wrap" data-tag={tag}>
                         <img 
-                            alt='image'
+                            alt='london'
                             src={imgSrc} 
                             className='cards__item__img'
                         />
