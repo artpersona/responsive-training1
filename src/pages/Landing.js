@@ -6,6 +6,7 @@ function Landing() {
         <div>
             <Hero></Hero>
             <Card>WTF</Card>
+           
         </div>
     )
 }
