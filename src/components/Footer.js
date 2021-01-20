@@ -22,7 +22,9 @@ function Footer() {
               className="footer-input"
             />
           </form>
-          <Button buttonStyle="btn--outline" className='btn'>Subscribe</Button>
+          <Button buttonStyle="btn--outline" className="btn">
+            Subscribe
+          </Button>
         </div>
       </section>
 
@@ -67,20 +69,19 @@ function Footer() {
             src={
               "https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/rocket-512.png"
             }
+            alt="wonderpets"
             className="site-image"
           />
           <p>Aether</p>
         </div>
 
-        <p className="credits">
-          John Paul Perez © 2021
-        </p>
+        <p className="credits">John Paul Perez © 2021</p>
 
         <div className="socials">
-          <i className='fa fa-facebook'/>
-          <i className='fa fa-instagram'/>
-          <i className='fa fa-youtube'/>
-          <i className='fa fa-twitter'/>
+          <i className="fa fa-facebook" />
+          <i className="fa fa-instagram" />
+          <i className="fa fa-youtube" />
+          <i className="fa fa-twitter" />
         </div>
       </div>
     </div>
